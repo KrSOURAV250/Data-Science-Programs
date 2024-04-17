@@ -36,6 +36,6 @@ st.code("pip install streamlit")
 with st.echo():
     # How To Import StreamLit in Your Python Script.
     import streamlit
- with st.spinner("Wait a Moment"):
+with st.spinner("Wait a Moment"):
     time.sleep(3)
     st.success("Success")
